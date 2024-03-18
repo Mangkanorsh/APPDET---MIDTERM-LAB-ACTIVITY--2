@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Midterm Lab Activity #2</title>
+  <title>Problem #1</title>
   <style>
         body {
         background-color: #000; /* Black background */
@@ -64,7 +64,7 @@
         <?php
 
         $randomNumbers = []; // This array will store the randomly generated numbers
-        
+
         for ($i = 0; $i < 20; $i++) { // loop that iterates 20 times
           $randomNumbers[] = rand(1, 100); // each iteration generates a random number between 1 and 100 and appends it to the $randomNumbers array
         }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Scores (Hacker Theme)</title>
+    <title>Problem #2</title>
     <style>
         body {
             background-color: #000; /* Black background */
@@ -65,11 +65,11 @@
             echo "<br>Marked Scores:<br><br>";
             foreach ($scores as $score) {
                 if ($score < 75) {
-                    $colorClass = 'low-score';
+                    $colorClass = 'low-score'; // if it is less than 75 $colorClass variable will have a string value of 'low-score'
                 } else {
-                    $colorClass = '';
+                    $colorClass = ''; // if not $colorClass variable will be an empty variable
                 }
-                echo "<span class='score $colorClass'>> $score</span><br>";
+                echo "<span class='score $colorClass'>> $score</span><br>"; // display the $score varaiable 
             }
 
             // Sort scores in ascending order
