@@ -63,7 +63,7 @@
         echo "<br>Marked Scores:<br><br>";
         foreach ($scores as $score) {
             if ($score < 75) {
-                 $colorClass = 'low-score';
+                $colorClass = 'low-score';
             } else {
                 $colorClass = '';
             }
