@@ -34,6 +34,11 @@
         color: #0f0; /* Brighter green for numbers */
         }
 
+        .random-numbers ul {
+            list-style-type: none;
+        }
+
+
         .random-numbers li {
         margin-bottom: 5px;
         }
@@ -65,7 +70,7 @@
         sort($random_numbers); // sorts the elements of the $random_numbers array in ascending order
 
         foreach ($random_numbers as $number) { // In each iteration, the current number is assigned to the variable $number.
-          echo "<li>$number</li>";
+          echo "<li>>  $number</li>";
         }
         ?>
       </ul>
@@ -80,12 +85,12 @@
 </body>
 </html>
 <!-- 
-    NORSH DANIEL FRANCOIS LOPEZ
+    NORSH DANIEL FRANCOIS LOPEZ 
+    DANICA KASSANDRA LEPARDO
     FRANCIS SHANE LEE FLORES
+    LORIE MAE QUIDADO
     CARMELITO CABALLERO
     MA. HANNAH RAFAELLA CABALLO
     AUREA RECTO
-    LORIE MAE QUIDADO
     JADE VILLAHERMOSA
-    DANICA KASSANDRA LEPARDO
  -->
