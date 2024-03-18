@@ -62,24 +62,26 @@
       <b>Generated random numbers:</b>
       <ul>
         <?php
-        $random_numbers = []; // This array will store the randomly generated numbers
+
+        $randomNumbers = []; // This array will store the randomly generated numbers
+        
         for ($i = 0; $i < 20; $i++) { // loop that iterates 20 times
-          $random_numbers[] = rand(1, 100); // each iteration generates a random number between 1 and 100 and appends it to the $random_numbers array
+          $randomNumbers[] = rand(1, 100); // each iteration generates a random number between 1 and 100 and appends it to the $randomNumbers array
         }
 
-        sort($random_numbers); // sorts the elements of the $random_numbers array in ascending order
+        sort($randomNumbers); // sorts the elements of the $randomNumbers array in ascending order
 
-        foreach ($random_numbers as $number) { // In each iteration, the current number is assigned to the variable $number.
+        foreach ($randomNumbers as $number) { // In each iteration, the current number is assigned to the variable $number.
           echo "<li>>  $number</li>";
         }
         ?>
       </ul>
     </div>
     <div class="statistics">
-      <b for="lowest">Lowest number:</b> <?php echo min($random_numbers); // returns the lowest value from an array?> <br>
-      <b for="highest">Highest number:</b> <?php echo max($random_numbers); // returns the highest value in an array?> <br>
-      <b for="sum">Sum of all numbers:</b> <?php echo array_sum($random_numbers); // calculates the sum of all the numbers?> <br>
-      <b for="average">Average of all numbers:</b> <?php echo array_sum($random_numbers) / count($random_numbers); // calculates the average of all the numbers in the array?> <br>
+      <b for="lowest">Lowest number:</b> <?php echo min($randomNumbers); // returns the lowest value from an array?> <br>
+      <b for="highest">Highest number:</b> <?php echo max($randomNumbers); // returns the highest value in an array?> <br>
+      <b for="sum">Sum of all numbers:</b> <?php echo array_sum($randomNumbers); // calculates the sum of all the numbers?> <br>
+      <b for="average">Average of all numbers:</b> <?php echo array_sum($randomNumbers) / count($randomNumbers); // calculates the average of all the numbers in the array?> <br>
     </div>
   </div>
 </body>
