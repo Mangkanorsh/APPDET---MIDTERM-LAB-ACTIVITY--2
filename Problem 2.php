@@ -15,23 +15,19 @@
 </head>
 <body>
     <div class="score-box">
-
         <h1>MIDTERM LAB ACTIVITY #2<br>
         Control Structure and Arrays with sort( ) and rand( ) function</h1>
-
         <?php
             // Generate 10 random scores (50-100) and store them in an array
             $scores = array();
             for ($i = 0; $i < 10; $i++) {
                 $scores[] = rand(50, 100);
             }
-
             // Display scores (original order)
             echo "Original Scores:<br><br>";
             foreach ($scores as $score) {
                 echo "<span class='score'>> $score</span><br>";
             }
-
             // Display scores (with red font color if the score is less than 75)
             echo "<br>Marked Scores:<br><br>";
             foreach ($scores as $score) {
@@ -42,10 +38,8 @@
                 }
                 echo "<span class='score $colorClass'>> $score</span><br>"; // display the $score varaiable 
             }
-
             // Sort scores in ascending order
             sort($scores);
-
             // Display scores (sorted order)
             echo "<br>Sorted Scores:<br><br>";
             foreach ($scores as $score) {
@@ -55,7 +49,6 @@
     </div>
 </body>
 </html>
-
 <!-- 
     NORSH DANIEL FRANCOIS LOPEZ 
     DANICA KASSANDRA LEPARDO
