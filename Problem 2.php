@@ -16,7 +16,6 @@
             align-items: center;
             min-height: 100vh;
         }
-
         .score-box {
             padding: 20px;
             margin: 0 auto; /* Center horizontally */

@@ -68,9 +68,6 @@
         for ($i = 0; $i < 20; $i++) { // loop that iterates 20 times
           $randomNumbers[] = rand(1, 100); // each iteration generates a random number between 1 and 100 and appends it to the $randomNumbers array
         }
-
-        sort($randomNumbers); // sorts the elements of the $randomNumbers array in ascending order
-
         foreach ($randomNumbers as $number) { // In each iteration, the current number is assigned to the variable $number.
           echo "<li>>  $number</li>";
         }
