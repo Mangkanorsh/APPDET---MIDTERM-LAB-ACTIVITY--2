@@ -18,11 +18,13 @@
         }
 
         .score-box {
-            background-color: #111; /* Darker box background */
-            border: 1px solid #0f0; /* Green border */
             padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3); /* Green shadow */
+            margin: 0 auto; /* Center horizontally */
+            max-width: 800px; /* Wider content area */
+            background-color: #111; /* Darker gray */
+            border-radius: 5px; /* Add some rounded corners */
+            color: #ccc; /* Lighter gray text for content */
+            box-shadow: 0 0 5px rgba(0, 255, 0, 0.3); /* Green shadow */
         }
 
         h1 {
@@ -35,6 +37,7 @@
             font-size: 18px;
             margin-bottom: 5px;
             margin-left: 5%;
+            color: #0f0; /* Brighter green for title */
         }
 
         .low-score {
