@@ -5,53 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Problem #1</title>
   <style>
-        body {
-        background-color: #000; /* Black background */
-        color: #33ff33; /* Green text */
-        font-family: monospace, Consolas, "Courier New", Courier, sans-serif; /* Monospace font */
-        }
-
-        h1 {
-        text-align: center;
-        margin: 0;
-        color: #0f0; /* Brighter green for title */
-        }
-
-        .content {
-        padding: 20px;
-        margin: 0 auto; /* Center horizontally */
-        max-width: 800px; /* Wider content area */
-        background-color: #111; /* Darker gray */
-        border-radius: 5px; /* Add some rounded corners */
-        color: #ccc; /* Lighter gray text for content */
-        box-shadow: 0 0 5px rgba(0, 255, 0, 0.3); /* Green shadow */
-        }
-
-        .random-numbers {
-        list-style: none; /* Remove default bullet points */
-        padding: 0;
-        margin: 0;
-        color: #0f0; /* Brighter green for numbers */
-        }
-
-        .random-numbers ul {
-            list-style-type: none;
-        }
-
-
-        .random-numbers li {
+        body {background-color: #000; /* Black background */color: #33ff33; /* Green text */font-family: monospace, Consolas, "Courier New", Courier, sans-serif; /* Monospace font */
+        }h1 {text-align: center;margin: 0;color: #0f0; /* Brighter green for title */
+        }.content {padding: 20px;margin: 0 auto; /* Center horizontally */max-width: 800px; /* Wider content area */background-color: #111; /* Darker gray */border-radius: 5px; /* Add some rounded corners */color: #ccc; /* Lighter gray text for content */box-shadow: 0 0 5px rgba(0, 255, 0, 0.3); /* Green shadow */
+        }.random-numbers {list-style: none; /* Remove default bullet points */padding: 0;margin: 0;color: #0f0; /* Brighter green for numbers */
+        }.random-numbers ul {list-style-type: none;
+        }.random-numbers li {
         margin-bottom: 5px;
+        }.statistics {margin-top: 20px; /* Add space after the list */
+        }.statistics b {font-weight: bold;color: #0f0; /* Brighter green for labels */
         }
-
-        .statistics {
-        margin-top: 20px; /* Add space after the list */
-        }
-
-        .statistics b {
-        font-weight: bold;
-        color: #0f0; /* Brighter green for labels */
-        }
-
   </style>
 </head>
 <body>

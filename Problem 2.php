@@ -5,42 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problem #2</title>
     <style>
-        body {
-            background-color: #000; /* Black background */
-            color: #0f0; /* Green text color */
-            font-family: monospace; /* Monospaced font for hacker vibes */
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .score-box {
-            padding: 20px;
-            margin: 0 auto; /* Center horizontally */
-            max-width: 800px; /* Wider content area */
-            background-color: #111; /* Darker gray */
-            border-radius: 5px; /* Add some rounded corners */
-            color: #ccc; /* Lighter gray text for content */
-            box-shadow: 0 0 5px rgba(0, 255, 0, 0.3); /* Green shadow */
-        }
-
-        h1 {
-            margin-bottom: 10px;
-            color: #0f0; /* Brighter green for title */
-            text-align: center; /* Center align heading */
-        }
-
-        .score {
-            font-size: 18px;
-            margin-bottom: 5px;
-            margin-left: 5%;
-            color: #0f0; /* Brighter green for title */
-        }
-
-        .low-score {
-            color: #a00; /* Red for scores below 75 */
+        body {background-color: #000; /* Black background */color: #0f0; /* Green text color */font-family: monospace; /* Monospaced font for hacker vibes */margin: 0;padding: 20px;display: flex;justify-content: center;align-items: center;min-height: 100vh;
+        }.score-box {padding: 20px;margin: 0 auto; /* Center horizontally */max-width: 800px; /* Wider content area */background-color: #111; /* Darker gray */border-radius: 5px; /* Add some rounded corners */color: #ccc; /* Lighter gray text for content */box-shadow: 0 0 5px rgba(0, 255, 0, 0.3); /* Green shadow */
+        }h1 {margin-bottom: 10px;color: #0f0; /* Brighter green for title */text-align: center; /* Center align heading */
+        }.score {font-size: 18px;margin-bottom: 5px;margin-left: 5%;color: #0f0; /* Brighter green for title */
+        }.low-score {color: #a00; /* Red for scores below 75 */
         }
     </style>
 </head>
